@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBAEB01425F339770095F782 /* Fitness_PlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAEB01325F339770095F782 /* Fitness_PlannerApp.swift */; };
+		BBAEB01625F339770095F782 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAEB01525F339770095F782 /* ContentView.swift */; };
+		BBAEB01825F339780095F782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAEB01725F339780095F782 /* Assets.xcassets */; };
+		BBAEB01B25F339780095F782 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAEB01A25F339780095F782 /* Preview Assets.xcassets */; };
+		BBAEB02625F339780095F782 /* Fitness_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAEB02525F339780095F782 /* Fitness_PlannerTests.swift */; };
+		BBAEB03125F339780095F782 /* Fitness_PlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAEB03025F339780095F782 /* Fitness_PlannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBAEB02225F339780095F782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAEB00825F339770095F782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBAEB00F25F339770095F782;
+			remoteInfo = "Fitness Planner";
+		};
+		BBAEB02D25F339780095F782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAEB00825F339770095F782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBAEB00F25F339770095F782;
+			remoteInfo = "Fitness Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBAEB01025F339770095F782 /* Fitness Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAEB01325F339770095F782 /* Fitness_PlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_PlannerApp.swift; sourceTree = "<group>"; };
+		BBAEB01525F339770095F782 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBAEB01725F339780095F782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBAEB01A25F339780095F782 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBAEB01C25F339780095F782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAEB02125F339780095F782 /* Fitness PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAEB02525F339780095F782 /* Fitness_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_PlannerTests.swift; sourceTree = "<group>"; };
+		BBAEB02725F339780095F782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAEB02C25F339780095F782 /* Fitness PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAEB03025F339780095F782 /* Fitness_PlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_PlannerUITests.swift; sourceTree = "<group>"; };
+		BBAEB03225F339780095F782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBAEB00D25F339770095F782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAEB01E25F339780095F782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAEB02925F339780095F782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBAEB00725F339770095F782 = {
+			isa = PBXGroup;
+			children = (
+				BBAEB01225F339770095F782 /* Fitness Planner */,
+				BBAEB02425F339780095F782 /* Fitness PlannerTests */,
+				BBAEB02F25F339780095F782 /* Fitness PlannerUITests */,
+				BBAEB01125F339770095F782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBAEB01125F339770095F782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBAEB01025F339770095F782 /* Fitness Planner.app */,
+				BBAEB02125F339780095F782 /* Fitness PlannerTests.xctest */,
+				BBAEB02C25F339780095F782 /* Fitness PlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBAEB01225F339770095F782 /* Fitness Planner */ = {
+			isa = PBXGroup;
+			children = (
+				BBAEB01325F339770095F782 /* Fitness_PlannerApp.swift */,
+				BBAEB01525F339770095F782 /* ContentView.swift */,
+				BBAEB01725F339780095F782 /* Assets.xcassets */,
+				BBAEB01C25F339780095F782 /* Info.plist */,
+				BBAEB01925F339780095F782 /* Preview Content */,
+			);
+			path = "Fitness Planner";
+			sourceTree = "<group>";
+		};
+		BBAEB01925F339780095F782 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBAEB01A25F339780095F782 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBAEB02425F339780095F782 /* Fitness PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBAEB02525F339780095F782 /* Fitness_PlannerTests.swift */,
+				BBAEB02725F339780095F782 /* Info.plist */,
+			);
+			path = "Fitness PlannerTests";
+			sourceTree = "<group>";
+		};
+		BBAEB02F25F339780095F782 /* Fitness PlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBAEB03025F339780095F782 /* Fitness_PlannerUITests.swift */,
+				BBAEB03225F339780095F782 /* Info.plist */,
+			);
+			path = "Fitness PlannerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBAEB00F25F339770095F782 /* Fitness Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBAEB03525F339780095F782 /* Build configuration list for PBXNativeTarget "Fitness Planner" */;
+			buildPhases = (
+				BBAEB00C25F339770095F782 /* Sources */,
+				BBAEB00D25F339770095F782 /* Frameworks */,
+				BBAEB00E25F339770095F782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitness Planner";
+			productName = "Fitness Planner";
+			productReference = BBAEB01025F339770095F782 /* Fitness Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBAEB02025F339780095F782 /* Fitness PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBAEB03825F339780095F782 /* Build configuration list for PBXNativeTarget "Fitness PlannerTests" */;
+			buildPhases = (
+				BBAEB01D25F339780095F782 /* Sources */,
+				BBAEB01E25F339780095F782 /* Frameworks */,
+				BBAEB01F25F339780095F782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBAEB02325F339780095F782 /* PBXTargetDependency */,
+			);
+			name = "Fitness PlannerTests";
+			productName = "Fitness PlannerTests";
+			productReference = BBAEB02125F339780095F782 /* Fitness PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBAEB02B25F339780095F782 /* Fitness PlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBAEB03B25F339780095F782 /* Build configuration list for PBXNativeTarget "Fitness PlannerUITests" */;
+			buildPhases = (
+				BBAEB02825F339780095F782 /* Sources */,
+				BBAEB02925F339780095F782 /* Frameworks */,
+				BBAEB02A25F339780095F782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBAEB02E25F339780095F782 /* PBXTargetDependency */,
+			);
+			name = "Fitness PlannerUITests";
+			productName = "Fitness PlannerUITests";
+			productReference = BBAEB02C25F339780095F782 /* Fitness PlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBAEB00825F339770095F782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BBAEB00F25F339770095F782 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BBAEB02025F339780095F782 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BBAEB00F25F339770095F782;
+					};
+					BBAEB02B25F339780095F782 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BBAEB00F25F339770095F782;
+					};
+				};
+			};
+			buildConfigurationList = BBAEB00B25F339770095F782 /* Build configuration list for PBXProject "Fitness Planner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBAEB00725F339770095F782;
+			productRefGroup = BBAEB01125F339770095F782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBAEB00F25F339770095F782 /* Fitness Planner */,
+				BBAEB02025F339780095F782 /* Fitness PlannerTests */,
+				BBAEB02B25F339780095F782 /* Fitness PlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBAEB00E25F339770095F782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAEB01B25F339780095F782 /* Preview Assets.xcassets in Resources */,
+				BBAEB01825F339780095F782 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAEB01F25F339780095F782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAEB02A25F339780095F782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBAEB00C25F339770095F782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAEB01625F339770095F782 /* ContentView.swift in Sources */,
+				BBAEB01425F339770095F782 /* Fitness_PlannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAEB01D25F339780095F782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAEB02625F339780095F782 /* Fitness_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBAEB02825F339780095F782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAEB03125F339780095F782 /* Fitness_PlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBAEB02325F339780095F782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBAEB00F25F339770095F782 /* Fitness Planner */;
+			targetProxy = BBAEB02225F339780095F782 /* PBXContainerItemProxy */;
+		};
+		BBAEB02E25F339780095F782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBAEB00F25F339770095F782 /* Fitness Planner */;
+			targetProxy = BBAEB02D25F339780095F782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBAEB03325F339780095F782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBAEB03425F339780095F782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBAEB03625F339780095F782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness Planner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fitness Planner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.Fitness-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBAEB03725F339780095F782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness Planner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fitness Planner/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.Fitness-Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBAEB03925F339780095F782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness PlannerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.Fitness-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness Planner.app/Fitness Planner";
+			};
+			name = Debug;
+		};
+		BBAEB03A25F339780095F782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness PlannerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.Fitness-PlannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness Planner.app/Fitness Planner";
+			};
+			name = Release;
+		};
+		BBAEB03C25F339780095F782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.Fitness-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness Planner";
+			};
+			name = Debug;
+		};
+		BBAEB03D25F339780095F782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Fitness PlannerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lon.Fitness-PlannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness Planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBAEB00B25F339770095F782 /* Build configuration list for PBXProject "Fitness Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAEB03325F339780095F782 /* Debug */,
+				BBAEB03425F339780095F782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBAEB03525F339780095F782 /* Build configuration list for PBXNativeTarget "Fitness Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAEB03625F339780095F782 /* Debug */,
+				BBAEB03725F339780095F782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBAEB03825F339780095F782 /* Build configuration list for PBXNativeTarget "Fitness PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAEB03925F339780095F782 /* Debug */,
+				BBAEB03A25F339780095F782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBAEB03B25F339780095F782 /* Build configuration list for PBXNativeTarget "Fitness PlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBAEB03C25F339780095F782 /* Debug */,
+				BBAEB03D25F339780095F782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBAEB00825F339770095F782 /* Project object */;
+}
